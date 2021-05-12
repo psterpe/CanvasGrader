@@ -35,6 +35,7 @@ function onOpen() {
   const ui = SpreadsheetApp.getUi();
   ui.createMenu('Canvas')
       .addItem('Fetch Course', 'fetchCourse')
+      .addItem('Report on Student', 'report')
       .addItem('Authorize', 'authorize')
       .addToUi();
 }

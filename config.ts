@@ -1,4 +1,4 @@
-const CANVAS_BASE='https://YOURSCHOOL.instructure.com/api/v1';
+const CANVAS_BASE='https://bostoncollege.instructure.com/api/v1';
 const PAGINATION_PER_PAGE = 10;
 const STUDENT_START_ROW = 4;
 const REPORT_START = 'D4';
